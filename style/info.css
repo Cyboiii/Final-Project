@@ -17,35 +17,35 @@ body{
   width: 100%;
 }
 
-/* Header */
+/* Header Link */
 
 .header{
   background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
-  }
-  .top-link{
-    display: flex;
-    justify-content: space-around;
-    padding: 2%;
-  }
-  .top-link li{
-    text-decoration: none;
-    font-size: 15pt;
-  }
-  .top-link li a{
-    width: 100%;
-    padding: 15pt;
-    text-decoration: none;
-    text-align: center;
-    font-size: 25px;
-    color: aliceblue;
-    transition: 0.25s;
-    border-radius: 10%;
-  }
-  .top-link li a:hover{
-    background-color: rgb(255, 255, 255, 0.2);
-    color: aliceblue;
-    transition: 0.25s;
-  }
+}
+.top-link{
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+}
+.top-link li{
+  text-decoration: none;
+  font-size: 15pt;
+}
+.top-link li a{
+  width: 100%;
+  padding: 15pt;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  color: aliceblue;
+  transition: 0.25s;
+  border-radius: 10%;
+}
+.top-link li a:hover{
+  background-color: rgb(255, 255, 255, 0.2);
+  color: aliceblue;
+  transition: 0.25s;
+}
 
   h1{
     margin-bottom: 5%;
@@ -115,7 +115,7 @@ h2{
   text-align: center;
 }
 hr{
-  margin-left: 150px;
+  margin-left: 160px;
   height:5px;
   background-color:#333;
 }
@@ -270,4 +270,28 @@ tr:hover{
 }
 .copyright-text a:hover{
   color:#29aafe
+}
+
+@media only screen and (width: 760px) {
+  hr{
+  margin-left: 165px;
+  height:5px;
+  background-color:#333;
+  } 
+}
+@media only screen and (width: 560px) {
+  tr{
+    font-size: 20px;
+    border-bottom: 2px solid #333;
+  }
+  .top-link li a{
+    width: 100%;
+    padding: 12pt;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    transition: 0.25s;
+    border-radius: 10%;
+  }
 }

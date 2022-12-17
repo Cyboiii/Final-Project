@@ -75,7 +75,7 @@ label{
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
 }
-input[type=text], input[type=password], input[type=email], input[type=number],input[type=tel], textarea    {
+input[type=text], input[type=password], input[type=email], input[type=number], textarea    {
     border-style: inset;
     border-width: 2px;
 }

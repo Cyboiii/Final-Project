@@ -219,3 +219,35 @@ h1{
 .copyright-text a:hover{
   color:#29aafe
 }
+
+
+
+@media only screen and (width: 560px) {
+  hr{
+  margin-left: 165px;
+  height:5px;
+  background-color:#333;
+  } 
+
+  .cardContainer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    gap: unset;
+  }
+  .card{
+    margin-bottom: 5%;
+
+  }
+.cardSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+}

@@ -1,9 +1,9 @@
 @import url(./reset.css);
 
-html, body, section{
+/* html, body, section{
     width: 100%;
     background-color: aliceblue;
-}
+} */
 
 /* Header Link */
 
@@ -44,17 +44,9 @@ html, body, section{
     align-items: center;
   }
 
-* {
-    box-sizing: border-box;
-    font-family: Raleway;
-    color: #777;
-}
 
-html, body {
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
-}
+
+
 
 .nav ul {
     margin: 0;
@@ -92,15 +84,6 @@ html, body {
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
-}
-
-.band-name {
-    text-align: center;
-    margin: 0;
-    font-size: 4em;
-    font-family: "Booter - Zero Zero";
-    font-weight: normal;
-    color: white;
 }
 
 .band-name-large {
